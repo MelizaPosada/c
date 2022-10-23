@@ -5,12 +5,14 @@
 /*
  * main - Entry point
  *
+ * Description: 'the program's description'
+ *
  * Return: 0
  */
 
 int main(void)
 {
-		int n;
+	0	int n;
 		int c;
 
 		srand(time(0));
