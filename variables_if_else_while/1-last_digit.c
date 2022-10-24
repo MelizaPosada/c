@@ -2,8 +2,8 @@
 #include <stdlib.h>
 #include <time.h>
 
-/*
- * main - Entry point
+/**
+ * main - Print last digit of a number
  *
  * Description: 'the program's description'
  *
@@ -12,7 +12,7 @@
 
 int main(void)
 {
-	0	int n;
+		int n;
 		int c;
 
 		srand(time(0));
