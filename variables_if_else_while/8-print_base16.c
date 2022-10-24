@@ -15,9 +15,9 @@ int main(void)
 	int beta;
 
 	for (beta = '0'; beta <= '9'; beta++)
-		putchar(beta);
-		for (alpha = 'a'; alpha <= 'f'; alpha++)
-				putchar(alpha);
-				putchar('\n');
+	putchar(beta);
+	for (alpha = 'a'; alpha <= 'f'; alpha++)
+	putchar(alpha);
+	putchar('\n');
 	return (0);
 }
