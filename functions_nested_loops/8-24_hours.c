@@ -2,7 +2,7 @@
 
 /**
  * jack_bauer - clock
- * Description: prints every minute in one day 
+ * Description: prints every minute in one day
  * Return: 0
  */
 
