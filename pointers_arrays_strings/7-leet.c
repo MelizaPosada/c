@@ -13,11 +13,13 @@ char *leet(char *s)
 	str[10] = {'a', 'A', 'e', 'E', 'o', 'O', 't', 'T', 'l', 'L'};
 
 	while (s[i])
+
 	{
 	for (j = 0; j < 10; j++)
 		if (s[i] == str[j])
 			s[i] = subs[j];
-		i++;
+
+	i++;
 	}
 
 	return (s);
