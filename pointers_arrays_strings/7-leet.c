@@ -14,7 +14,9 @@ char *leet(char *s)
 
 	while (s[i])
 	{
-	for (j = 0; j < 10; j++)											if (s[i] == str[j])											s[i] = subs[j];
+	for (j = 0; j < 10; j++)
+		if (s[i] == str[j])
+			s[i] = subs[j];
 		i++;
 	}
 
